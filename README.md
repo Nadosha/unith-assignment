@@ -51,3 +51,30 @@ docker compose down
 This will stop and remove the containers.
 
 Let me know if you need any clarification or have additional questions!
+
+# Running without Docker
+
+Navigate to each directory (front-end & server) of the project and run the following commands:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
+
+This will start the front-end, back-end.
+
+# Running unit tests
+
+On the front end, I covered redux with unit tests. To run them, navigate to the front-end directory and run the
+following command:
+
+```bash
+npm run test
+# or
+yarn test
+# or
+pnpm test
+```
