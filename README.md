@@ -20,11 +20,19 @@ This app can be run using Docker for easier environment setup.
 
 Build the Docker images:
 
+```bash
+docker compose build
+```
+
 This will build the necessary images for the front-end, back-end, and database.
 
 ## Start Containers
 
 Once images are built, start the containers:
+
+```bash
+docker compose up
+```
 
 This will start the front-end, back-end, and database containers.
 
@@ -35,6 +43,10 @@ The back-end API will be at http://localhost:3001.
 ## Stop Containers
 
 To stop the containers, run:
+
+```bash
+docker compose down
+```
 
 This will stop and remove the containers.
 
