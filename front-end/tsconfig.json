@@ -1,0 +1,54 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": false,
+    "jsx": "react-jsx",
+    "incremental": true,
+    "baseUrl": ".",
+    "paths": {
+      "@Components/*": [
+        "src/components/*"
+      ],
+      "@Features/*": [
+        "src/features/*"
+      ],
+      "@Hooks/*": [
+        "src/hooks/*"
+      ],
+      "@Redux/*": [
+        "src/redux/*"
+      ],
+      "@Theme/*": [
+        "src/theme/*"
+      ],
+      "@Types/*": [
+        "src/types/*"
+      ],
+      "@Utils/*": [
+        "src/utils/*"
+      ]
+    }
+  },
+  "include": [
+    "src",
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
