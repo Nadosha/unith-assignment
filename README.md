@@ -1,4 +1,5 @@
-# Welcome to Unith Assignment
+Welcome to Unith Assignment
+=============== 
 
 This app was created using React and Redux for the front end and Node.js and Express for the back end.
 
@@ -7,7 +8,7 @@ fetch data from the local server. Also, the parts of the app can be running sepa
 frontend
 on different instances. Or by using the recommended way with Docker.
 
-# Running with Docker
+## Running with Docker
 
 This app can be run using Docker for easier environment setup.
 
@@ -52,7 +53,7 @@ This will stop and remove the containers.
 
 Let me know if you need any clarification or have additional questions!
 
-# Running without Docker
+## Running without Docker
 
 Navigate to each directory (front-end & server) of the project and run the following commands:
 
@@ -66,7 +67,7 @@ pnpm dev
 
 This will start the front-end, back-end.
 
-# Running unit tests
+## Running unit tests
 
 On the front end, I covered redux with unit tests. To run them, navigate to the front-end directory and run the
 following command:
@@ -78,3 +79,7 @@ yarn test
 # or
 pnpm test
 ```
+
+___
+
+# Thank you for your time and consideration!
