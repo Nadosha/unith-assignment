@@ -5,8 +5,11 @@ This app was created using React and Redux for the front end and Node.js and Exp
 
 I've added backend API to the project, so if the original API (http://54.73.73.228:4369/api/images) won't work, you can
 fetch data from the local server. Also, the parts of the app can be running separately, so you can run the backend and
-frontend
-on different instances. Or by using the recommended way with Docker.
+frontend separately. Or by using the recommended way with Docker.
+
+Also I added caching to the app, so the images will be cached and app will be working even when backend will crash. To
+check it out, you can run the app, then stop the backend and refresh the page. You will see that the images are still
+there. 👌
 
 ## Running with Docker
 
